@@ -1,0 +1,28 @@
+@keyframes animateTable {
+  0% {opacity: 0;}
+  40% {opacity: 0.3;}
+  80% {opacity: 0.8;}
+  100% {opacity: 1;}
+}
+
+table {
+  display: inline-table;
+  border: 8px solid aliceblue;
+  background: aliceblue;
+  border-radius: 24px;
+  animation-name: animateTable;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+td {
+  padding: 16px;
+  width: 160px;
+  border: 8px solid antiquewhite;
+  border-radius: 24px;
+  background: linear-gradient(45deg, #d8cfcf, transparent);
+}
+
+th {
+  padding: 18px;
+}
