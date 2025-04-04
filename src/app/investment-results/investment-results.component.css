@@ -21,6 +21,7 @@ td {
   border: 8px solid antiquewhite;
   border-radius: 24px;
   background: linear-gradient(45deg, #d8cfcf, transparent);
+  font-weight: 600;
 }
 
 th {
